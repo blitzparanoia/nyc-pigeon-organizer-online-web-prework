@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
     h.each do |value, name|
     name.each do |name|
       result[name] || = {}
+      result[name][key] || = 
     binding.pry
     end
   end
