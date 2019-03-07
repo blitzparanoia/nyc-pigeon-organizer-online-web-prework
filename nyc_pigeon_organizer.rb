@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     name.each do |name|
       result[name] ||= {}
       result[name][key] ||= []
-      result[name][key]
+      result[name][key].push(value.to_s)
     binding.pry
     end
   end
